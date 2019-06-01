@@ -1,0 +1,1 @@
+Due to this being a notification application, UI is provided via Node Red Dashboard, in case of an administrative review of the system.
