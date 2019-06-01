@@ -17,11 +17,11 @@ float getDistance();
  
  
 //IBM Watson IoT Platform Details
-char orgName[] = "lm71ef";
-char macstr[] = "cumhurahmo";
-char server[] = "lm71ef.messaging.internetofthings.ibmcloud.com";
+char orgName[] = "<your_app_name>";
+char macstr[] = "<your_device_name>";
+char server[] = "<your_app_name>.messaging.internetofthings.ibmcloud.com";
 char type[] = "arduino";
-char token[] = "wdBP-!lH(0X1QaU!1L";
+char token[] = "<paste your own token>";
 int port = 1883;
 String clientName = buildClientName();
 //Default topic name of Watson IoT Platform
