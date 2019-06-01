@@ -29,6 +29,8 @@ Circuit Schema:
 
 ## Setup
 
+Note: You should update your configurations of your Twilio nodes in your flow and update the authentication section in your Arduino code. Otherwise system will not work.
+
 ### Steps
 
 * Create an IBM cloud account, create an app, create a Watson IoT service.
@@ -39,6 +41,7 @@ Circuit Schema:
 * Go to your Node Red web editor with "Go to App Url" option in Watson IoT. Open a flow.
 * Click the menu button (button with three bars). Click import, import from clipboard.
 * Paste the one-lined json file residing in "Cloud" folder to the text box. Upload the file.
+* Change your Twilio configuration for all twilio nodes with your account authentication info and the number you want to send message to.
 
 ### If all is right
 
